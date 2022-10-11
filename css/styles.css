@@ -11,13 +11,20 @@ rgba(255, 255, 255, 0.6) footer link
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --backgrount-color: #2F303A;
+    --main-background-color: #F5F5F5;
+    --primary-white-color:#ffffff;
+    --primary-black-color:#000000;
+    --portfolio-nav:#F5F4FA;
 }
 
 body{
-    color: #757575;
-    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+    background-color: var(--main-background-color);
 }
 
+.site-nav .link.current{
+    color: var(--accent-color);
+}
 /* банер */
 .hero,
 .footer{
@@ -43,7 +50,7 @@ body{
 }
 
 .logo{
-    color: #000000;
+    color: var(--primary-black-color);
 }
 
 .logo:hover,
@@ -72,18 +79,18 @@ body{
 
 /* Hero */
 .hero-title{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .hero-button{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 /* чому не вийшло додати до кнопки,
 /* .hero-button:hover;
 .hero-button:focus{
     color: var(--accent-color);
-    background-color: #FFFFFF;
+    background-color: ;
 } */
 
 /* section */
@@ -102,11 +109,11 @@ body{
 /* footer */
 
 .footer .logo{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .footer .street{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .contacts{
@@ -121,4 +128,13 @@ body{
 /* портфоліо */
 .work-title{
     color: var(--title-text-color);
+}
+
+.button{
+    color: var(--title-text-color);
+    background-color: var(--portfolio-nav);
+}
+
+.work-text{
+    color: var(--primary-text-color);
 }
