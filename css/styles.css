@@ -1,0 +1,124 @@
+/* main color
+#757575  text color
+#212121 title color
+#FFFFFF hero title, 
+#2196F3 accent color
+#000000 for logo
+rgba(255, 255, 255, 0.6) footer link
+*/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --backgrount-color: #2F303A;
+}
+
+body{
+    color: #757575;
+    background-color: #F5F5F5;
+}
+
+/* банер */
+.hero,
+.footer{
+    background-color: var(--backgrount-color);
+}
+/* скрытый заголовок */
+.hidden-title {
+    visibility: hidden;
+}
+/* скидання для списків та посилань */
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* index-styles */
+
+.logo-web{
+    color: var(--accent-color);
+}
+
+.logo{
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.auth-nav .link{
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title{
+    color: #FFFFFF;
+}
+
+.hero-button{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* чому не вийшло додати до кнопки,
+/* .hero-button:hover;
+.hero-button:focus{
+    color: var(--accent-color);
+    background-color: #FFFFFF;
+} */
+
+/* section */
+.section-title{
+    color: var(--title-text-color);
+}
+
+.features .title{
+    color: var(--title-text-color);
+}
+
+.team-title{
+   color: var(--title-text-color); 
+}
+
+/* footer */
+
+.footer .logo{
+    color: #FFFFFF;
+}
+
+.footer .street{
+    color: #FFFFFF;
+}
+
+.contacts{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link:hover,
+.footer .link:focus{
+    color: var(--accent-color);
+}
+
+/* портфоліо */
+.work-title{
+    color: var(--title-text-color);
+}
