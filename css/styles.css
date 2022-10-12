@@ -20,6 +20,12 @@ rgba(255, 255, 255, 0.6) footer link
 body{
     color: var(--primary-text-color);
     background-color: var(--main-background-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
 }
 
 .site-nav .link.current{
@@ -45,12 +51,18 @@ body{
 
 /* index-styles */
 
+/* logo */
 .logo-web{
     color: var(--accent-color);
 }
 
 .logo{
     color: var(--primary-black-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .logo:hover,
@@ -61,6 +73,11 @@ body{
 /* site-nav */
 .site-nav .link{
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -70,6 +87,11 @@ body{
 
 .auth-nav .link{
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -80,11 +102,29 @@ body{
 /* Hero */
 .hero-title{
     color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    color: var(--primary-black-color);
 }
 /* чому не вийшло додати до кнопки,
 /* .hero-button:hover;
@@ -96,14 +136,30 @@ body{
 /* section */
 .section-title{
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .features .title{
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.team{
+        font-size: 16px;
+        line-height: 1.9;
 }
 
 .team-title{
    color: var(--title-text-color); 
+   font-weight: 500; 
 }
 
 /* footer */
@@ -126,15 +182,36 @@ body{
 }
 
 /* портфоліо */
-.work-title{
-    color: var(--title-text-color);
-}
 
-.button{
+.button {
     color: var(--title-text-color);
     background-color: var(--portfolio-nav);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
-.work-text{
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.work-title{
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work-text {
     color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.9;
 }
